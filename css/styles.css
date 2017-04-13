@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+
+* 
+html, body {
+  margin: 20;
+  padding: 20;
+
+  text-align: center;
+  font-family: Verdana;
+}
+
+.header {
+  background: url("/resources/images/the-flatiron-building.png") no-repeat center center; 
+  background-size: cover;
+  height: 300px;
+  text-align: center; 
+}
+.header .container {
+  position: relative;
+  top: 80px;
+}
+
+.header h1 {
+  color: white;
+  font-size: 80px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20;
+  margin-bottom: 40px;
+  text-transform: uppercase; 
+}
+
+.subhead {
+  background: url("/resources/images/the-flatiron-building.png") no-repeat center center; 
+  background-size: cover;
+  height: 150px;
+}
+.subhead h2 {
+  color: white;
+  font-size: 42px;
+  font-weight: 400;
+  text-align: center;
+}
+
+h3 {
+  color: black;
+  font-size: 38px;
+  font-weight: 200;
+  text-align: center;
+}
+
+
+h4 {
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
+  color: black;
+
+}
+
+a {
+  text-decoration: none;
+  color: aquamarine;
+}
+
+.copyright {
+  font-size: 10px;
+  color: white;
+  font-family: Verdana;
+  font-weight: bolder;
+}
+p, 
+li {
+  font-size: 14px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+p.italic {
+    font-style: italic;
+	color: black;
+	font-size: 16px;
+}
+.footer {
+  margin: 0 auto; 
+  padding: 0 10px;
+}
+
+
+@media (min-width:850px) {
+  .header h1 {
+    font-size: 80px;
+  }
+}
+
+.header p {
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+  margin-top: 0;
+  text-transform: uppercase; 
+}
+
+.btn {
+  color: #fff;
+  background: #000;
+  padding: 10px 40px;
+  text-decoration: none; 
+  transition: background .5s; 
+}
+
+.nav { 
+  height: 100px; 
+  width: 100%;
+}
+
+.nav ul {
+  height: 20px;
+  list-style: none;
+  margin: 0 auto; 
+  padding: 0;
+}
+
+.nav ul li {
+  color: #fff;
+  display: inline-block; 
+  height: 20px;
+  line-height: 20px; 
+  list-style: none;
+  padding: 0 10px;
+  font-size: 16px;
+  font-family: Verdana;
+  font-weight: 600;
+  transition: background .5s; 
+}
+.box { 
+  height: 200px; 
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.boxsm { 
+  height: 120px; 
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.bottom { 
+  background: gray;
+  height: 40px; 
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.bottom p a { 
+  color: #fff;  
+  height: 20px; 
+  line-height: 20px;
+  margin: 0;  
+}
+
+
