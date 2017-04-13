@@ -14,6 +14,7 @@ html, body {
   background-size: cover;
   height: 300px;
   text-align: center; 
+  padding: 20px 20px;
 }
 .header .container {
   position: relative;
@@ -25,21 +26,24 @@ html, body {
   font-size: 80px;
   font-weight: 600;
   text-align: center;
-  margin-top: 20;
+  margin-top: 20px;
   margin-bottom: 40px;
   text-transform: uppercase; 
 }
 
 .subhead {
-  background: url(../resources/images/the-flatiron-building.png) no-repeat center center; 
+  background: url(../resources/images/the-flatiron-building.png) no-repeat left top; 
   background-size: cover;
-  height: 150px;
+  height: 80px;
+  padding: 10px 10px;
+  margin-top: 40px;
 }
 .subhead h2 {
   color: white;
   font-size: 42px;
   font-weight: 400;
   text-align: center;
+  margin-top: 20px;
 }
 
 h3 {
@@ -58,14 +62,14 @@ h4 {
 }
 
 p {
-  font-size: 14px;
+  font-size: 12px;
   color: black;
 
 }
 
 a {
   text-decoration: none;
-  color: aquamarine;
+  color: Gray;
 }
 
 .copyright {
@@ -74,20 +78,11 @@ a {
   font-family: Verdana;
   font-weight: bolder;
 }
-p, 
+ 
 li {
   font-size: 14px;
 }
 
-
-a {
-  text-decoration: none;
-}
-
-p.italic {
-    font-style: italic;
-	color: black;
-	font-size: 16px;
 }
 .footer {
   margin: 0 auto; 
@@ -143,7 +138,9 @@ p.italic {
   transition: background .5s; 
 }
 .box { 
-  height: 200px; 
+  float: none;
+  height: 200px;
+  width: 80%; 
   padding-bottom: 10px;
   padding-top: 10px;
 }
@@ -168,4 +165,17 @@ p.italic {
   margin: 0;  
 }
 
+div.content {
+    height: 200px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: none;
+    margin-bottom: none;
+	alignment-adjust: baseline
+}
 
+div.col {
+    float: left;
+    width: 33%;
+}
